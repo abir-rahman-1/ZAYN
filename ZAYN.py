@@ -93,6 +93,7 @@ class OLD_CLONER:
     
     def banner(self):
         os.system("clear")
+        
 print("\033[1;32m   print("\033[1;32m
 ________   ______  __      __  __    __ 
 |        \ /      \|  \    /  \|  \  |  \
