@@ -29,8 +29,7 @@ import os
 try:
 
     import os,requests,json,time,re,random,sys,uuid,string,subprocess,marshal
-
-    from string import *
+from string import *
 
     import bs4
 
