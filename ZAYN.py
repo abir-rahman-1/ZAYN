@@ -93,6 +93,7 @@ class OLD_CLONER:
     
     def banner(self):
         os.system("clear")
+
 ┏━━━━┳━━━┳┓╋╋┏┳━┓╋┏┓
 ┗━━┓━┃┏━┓┃┗┓┏┛┃┃┗┓┃┃
 ╋╋┏┛┏┫┃╋┃┣┓┗┛┏┫┏┓┗┛┃
