@@ -93,8 +93,13 @@ class OLD_CLONER:
     
     def banner(self):
         os.system("clear")
-
-print("\033[1;37m------------------------------------------------")
+        print("\033[1;32m   print("\033[1;32mZZZZZZZ   ##     ##  #######  ##     ## ")
+print("\033[1;32m      ZZ  ##     ## ##     ## ##     ## ")
+print("\033[1;32m     ZZ   ##     ## ##     ## ##     ## ")
+print("\033[1;32m    ZZ    ######### ##     ## ##     ## ")
+print("\033[1;32m   ZZ     ##     ## ##     ## ##     ## ")
+print("\033[1;32m  ZZ      ##     ## ##     ## ##     ## ")
+print("\033[1;32m ZZZZZZZ  ##     ##  #######   #######  ")        print("\033[1;37m------------------------------------------------")
         print("\033[1;33m[+]\033[1;35mAUTHOR  : ZAYN")
         print("\033[1;33m[+]\033[1;35mVERSION : OLD CRACK")
         print("\033[1;33m[+]\033[1;35mVERSION : 0")
@@ -142,7 +147,7 @@ print("\033[1;37m------------------------------------------------")
         else:
             self.uX = "1000000000"
             self.uG = 9
-        print("EXAMPLE  - 20000,30000,40000,99999")
+        print("EXAMPLE  - 5000,10000")
         limit = int(input("SELECT   - "))
         for a in range(limit):
             ZAYN = "".join(random.choice(string.digits) for _ in range(self.uG))
