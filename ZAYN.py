@@ -124,7 +124,8 @@ def main(self):
         elif select == "5":self.oldClone("2007")
         elif select == "6":self.oldClone("2005-2006")
         else:self.main()
-    def oldClone(self,series):
+
+def oldClone(self,series):
         self.banner()
         if series == "2013-14":
             self.uX = "100009"
