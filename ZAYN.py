@@ -592,6 +592,5 @@ def CloneOld(self,ids,passlist):
                 else:continue
             self.loop += 1
         except Exception as e:pass
-if __name__ == "__main__":
-
-OLD_CLONER().main()
+if __name__ == '__main__':
+    BNG_71_()
