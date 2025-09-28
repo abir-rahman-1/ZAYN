@@ -593,4 +593,4 @@ def CloneOld(self,ids,passlist):
             self.loop += 1
         except Exception as e:pass
 if __name__ == '__main__':
-	abir-rahman-1().main()
+OLD_CLONER().main()
