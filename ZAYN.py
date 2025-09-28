@@ -532,7 +532,7 @@ def ugen(self):
         max = random.choice(ua_list)
         return str(max)
     
-    def CloneOld(self,ids,passlist):
+def CloneOld(self,ids,passlist):
         global loop,oks,cps
         sys.stdout.write(f"\r\r\x1b[m [ZAYN-XD] {self.loop}|OK:{len(self.oks)}")
         sys.stdout.flush()
